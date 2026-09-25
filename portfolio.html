@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 20px;
+            color: #222;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h2.underline {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 4px;
+        }
+        nav {
+            text-align: center;
+            background-color: #2c3e50;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        ul, ol {
+            background-color: white;
+            padding: 15px 35px;
+            border-radius: 6px;
+        }
+        li {
+            margin: 6px 0;
+        }
+        li a {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        li a:hover {
+            color: #e67e22;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        .contact-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.85;
+        }
+        .btn-github {
+            background-color: #333;
+        }
+        .btn-facebook {
+            background-color: #1877f2;
+        }
+        .btn-telegram {
+            background-color: #0088cc;
+        }
+        .btn-youtube {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <h1><b><i>My Profile</i></b></h1>
+
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#interests">Interests</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <img src="main.jpg" alt="Long David" style="width: 300px; height: auto;">
+    <h2 id="about">My name is Long David</h2>
+    <h2>I'm studying at University Of Management</h2>
+    <h2>Major: Information Technology</h2>
+    <h2>Group 34/78</h2>
+    <h2 class="underline">My favorite Things</h2>
+    <p>My favorite sport is Football</p>
+    <p>My favorite food is seafood</p>
+    <p>My favorite place is Phnom Penh</p>
+
+    <h2 id="interests" class="underline">My Interests</h2>
+    <ul>
+        <li>Football</li>
+        <li>Seafood</li>
+        <li>Traveling to Siemreap province</li>
+    </ul>
+
+    <h2 class="underline">My Goals (in order)</h2>
+    <ol>
+        <li>Finish my IT degree</li>
+        <li>Get an internship</li>
+        <li>Learn FullStack Development</li>
+        <li>Get a job in IT</li>
+    </ol>
+
+    <h2 id="skills" class="underline">My Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>MySQL</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Cyber Security</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Penetration Testing</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>CCNA (Networking)</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>UX/UI Design</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Mobile App Development</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Intermediate</td>
+        </tr>
+    </table>
+
+    <h2 id="contact" class="underline">Contact Me</h2>
+    <ul>
+        <li>Email: longdavid19778@gmail.com</li>
+        <li>Phone: +855 78 217 248</li>
+        <li>Location: Phnom Penh, Cambodia</li>
+    </ul>
+    <div class="contact-buttons">
+        <a href="https://github.com/vidnoob200-rgb" target="_blank" class="btn btn-github">GitHub</a>
+        <a href="https://www.facebook.com/bro.david.50115" target="_blank" class="btn btn-facebook">Facebook</a>
+        <a href="https://t.me/longdavid12" target="_blank" class="btn btn-telegram">Telegram</a>
+        <a href="https://www.youtube.com/@randomcodes3453" target="_blank" class="btn btn-youtube">YouTube</a>
+    </div>
+</body>
+</html>
